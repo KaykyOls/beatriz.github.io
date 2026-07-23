@@ -653,6 +653,11 @@ button { font-family: inherit; background: none; border: none; cursor: pointer; 
 ========================================================= */
 @media (max-width: 480px) {
   .section { padding: 4rem 0; }
-  .music-label { display: none; }
-  .music-toggle { padding: 12px; }
+  .music-label { display: inline;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  }
+  .music-toggle { padding: 8px 12px;
+  gap: 6px;
+  }
 }
